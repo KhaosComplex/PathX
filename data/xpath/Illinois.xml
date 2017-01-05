@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<level image="illinois.png" name="Illinois">
+     <intersections>
+          <intersection id="0" open="true" x="63" y="257"/>
+          <intersection id="1" open="true" x="915" y="256"/>
+          <intersection id="2" open="true" x="152" y="45"/>
+          <intersection id="3" open="true" x="289" y="112"/>
+          <intersection id="4" open="true" x="468" y="124"/>
+          <intersection id="5" open="true" x="635" y="84"/>
+          <intersection id="6" open="true" x="802" y="39"/>
+          <intersection id="7" open="true" x="167" y="475"/>
+          <intersection id="8" open="true" x="329" y="435"/>
+          <intersection id="9" open="true" x="456" y="398"/>
+          <intersection id="10" open="true" x="598" y="443"/>
+          <intersection id="11" open="true" x="775" y="511"/>
+          <intersection id="12" open="true" x="400" y="257"/>
+          <intersection id="13" open="true" x="498" y="256"/>
+     </intersections>
+     <roads>
+          <road int_id1="0" int_id2="12" one_way="true" speed_limit="70"/>
+          <road int_id1="13" int_id2="1" one_way="true" speed_limit="70"/>
+          <road int_id1="12" int_id2="3" one_way="false" speed_limit="30"/>
+          <road int_id1="3" int_id2="2" one_way="false" speed_limit="30"/>
+          <road int_id1="6" int_id2="5" one_way="false" speed_limit="30"/>
+          <road int_id1="5" int_id2="4" one_way="false" speed_limit="30"/>
+          <road int_id1="4" int_id2="11" one_way="false" speed_limit="30"/>
+          <road int_id1="11" int_id2="10" one_way="false" speed_limit="30"/>
+          <road int_id1="10" int_id2="9" one_way="false" speed_limit="30"/>
+          <road int_id1="9" int_id2="8" one_way="false" speed_limit="30"/>
+          <road int_id1="8" int_id2="7" one_way="false" speed_limit="30"/>
+          <road int_id1="7" int_id2="13" one_way="false" speed_limit="30"/>
+          <road int_id1="3" int_id2="4" one_way="false" speed_limit="30"/>
+          <road int_id1="7" int_id2="11" one_way="true" speed_limit="70"/>
+          <road int_id1="6" int_id2="2" one_way="true" speed_limit="90"/>
+     </roads>
+     <start_intersection id="0" image="illinoisstart.png"/>
+     <destination_intersection id="1" image="illinoisend.png"/>
+     <money amount="180"/>
+     <police num="2"/>
+     <bandits num="0"/>
+     <zombies num="0"/>
+</level>

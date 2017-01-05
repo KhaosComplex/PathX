@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<level image="Oregon.png" name="Oregon">
+     <intersections>
+          <intersection id="0" open="true" x="57" y="229"/>
+          <intersection id="1" open="true" x="882" y="249"/>
+          <intersection id="2" open="true" x="409" y="93"/>
+          <intersection id="3" open="true" x="221" y="228"/>
+          <intersection id="4" open="false" x="548" y="223"/>
+          <intersection id="5" open="true" x="387" y="371"/>
+          <intersection id="6" open="true" x="709" y="97"/>
+          <intersection id="7" open="true" x="715" y="376"/>
+     </intersections>
+     <roads>
+          <road int_id1="0" int_id2="3" one_way="false" speed_limit="30"/>
+          <road int_id1="3" int_id2="2" one_way="false" speed_limit="30"/>
+          <road int_id1="2" int_id2="4" one_way="false" speed_limit="30"/>
+          <road int_id1="5" int_id2="4" one_way="false" speed_limit="30"/>
+          <road int_id1="5" int_id2="3" one_way="false" speed_limit="30"/>
+          <road int_id1="3" int_id2="4" one_way="false" speed_limit="30"/>
+          <road int_id1="4" int_id2="1" one_way="false" speed_limit="30"/>
+          <road int_id1="6" int_id2="4" one_way="false" speed_limit="30"/>
+          <road int_id1="4" int_id2="7" one_way="false" speed_limit="30"/>
+          <road int_id1="7" int_id2="1" one_way="false" speed_limit="30"/>
+          <road int_id1="6" int_id2="1" one_way="false" speed_limit="30"/>
+          <road int_id1="6" int_id2="2" one_way="false" speed_limit="30"/>
+          <road int_id1="5" int_id2="7" one_way="false" speed_limit="30"/>
+     </roads>
+     <start_intersection id="0" image="OregonStart.png"/>
+     <destination_intersection id="1" image="OregonDestination.png"/>
+     <money amount="40"/>
+     <police num="1"/>
+     <bandits num="1"/>
+     <zombies num="0"/>
+</level>

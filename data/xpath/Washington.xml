@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<level image="Washington.png" name="Washington">
+     <intersections>
+          <intersection id="0" open="true" x="50" y="285"/>
+          <intersection id="1" open="true" x="937" y="280"/>
+          <intersection id="2" open="true" x="255" y="285"/>
+          <intersection id="3" open="true" x="377" y="62"/>
+          <intersection id="4" open="true" x="371" y="490"/>
+          <intersection id="5" open="true" x="716" y="480"/>
+          <intersection id="6" open="true" x="803" y="278"/>
+          <intersection id="7" open="true" x="723" y="62"/>
+     </intersections>
+     <roads>
+          <road int_id1="0" int_id2="2" one_way="false" speed_limit="30"/>
+          <road int_id1="2" int_id2="3" one_way="false" speed_limit="30"/>
+          <road int_id1="3" int_id2="7" one_way="false" speed_limit="30"/>
+          <road int_id1="7" int_id2="6" one_way="false" speed_limit="30"/>
+          <road int_id1="6" int_id2="1" one_way="false" speed_limit="30"/>
+          <road int_id1="6" int_id2="5" one_way="false" speed_limit="30"/>
+          <road int_id1="5" int_id2="4" one_way="false" speed_limit="30"/>
+          <road int_id1="4" int_id2="2" one_way="false" speed_limit="30"/>
+     </roads>
+     <start_intersection id="0" image="WashingtonStart.png"/>
+     <destination_intersection id="1" image="WashingtonDestination.png"/>
+     <money amount="20"/>
+     <police num="1"/>
+     <bandits num="0"/>
+     <zombies num="0"/>
+</level>

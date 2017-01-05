@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    The properties in this file are loaded when xPath game application
+    first loads.
+-->
+<properties>
+    <property_list>    
+        <property name="FILE_GAME_PROPERTIES"   value="./xpath/xpath_properties.xml"></property>
+        <property name="PATH_AUDIO"             value="./audio/"></property>
+        <property name="PATH_IMG"               value="./img/"></property>
+    </property_list>
+
+    <property_options_list>
+    </property_options_list>
+</properties>

@@ -1,0 +1,298 @@
+Revision: 47
+Author: Khaos
+Date: Monday, April 14, 2014 3:06:38 PM
+Message:
+turned off music this revision.
+----
+Modified : /xPath/src/xpath/ui/XPathMiniGame.java
+
+Revision: 46
+Author: Khaos
+Date: Monday, April 14, 2014 2:52:55 PM
+Message:
+removed println statements.
+----
+Modified : /xPath/src/xpath/ui/XPathPanel.java
+
+Revision: 45
+Author: Khaos
+Date: Monday, April 14, 2014 2:48:03 PM
+Message:
+Introduced new LevelSprite class!
+----
+Added : /xPath/src/xpath/ui/LevelSprite.java
+Modified : /xPath/src/xpath/ui/XPathMiniGame.java
+Modified : /xPath/src/xpath/ui/XPathPanel.java
+
+Revision: 44
+Author: Khaos
+Date: Monday, April 14, 2014 12:58:25 PM
+Message:
+Updated more!
+----
+Modified : /xPath/src/xpath/ui/XPathEventHandler.java
+Modified : /xPath/src/xpath/ui/XPathMiniGame.java
+Modified : /xPath/src/xpath/ui/XPathPanel.java
+
+Revision: 43
+Author: Khaos
+Date: Monday, April 14, 2014 6:55:49 AM
+Message:
+Updated Name.
+----
+Modified : /xPath/data/xpath/xpath_properties.xml
+
+Revision: 42
+Author: Khaos
+Date: Monday, April 14, 2014 6:53:24 AM
+Message:
+Updated Quit Button
+----
+Modified : /xPath
+Modified : /xPath/src/xpath/ui/XPathMiniGame.java
+
+Revision: 41
+Author: Khaos
+Date: Monday, April 14, 2014 6:35:11 AM
+Message:
+Fixed closeMO/S icon bug 
+----
+Modified : /xPath/img/xpath/CloseButtonMO.png
+Modified : /xPath/img/xpath/CloseSmallMO.png
+
+Revision: 40
+Author: Khaos
+Date: Monday, April 14, 2014 6:32:19 AM
+Message:
+Completely Finished UI as far as the criteria for HW 5 is concerned.
+----
+Modified : /xPath/data/xpath/xpath_properties.xml
+Added : /xPath/hs_err_pid15216.log
+Added : /xPath/hs_err_pid9624.log
+Added : /xPath/img/xpath/CloseSmall.png
+Added : /xPath/img/xpath/CloseSmallMO.png
+Modified : /xPath/img/xpath/WindowBG.png
+Added : /xPath/img/xpath/WindowBGLarge.png
+Modified : /xPath/img/xpath/WindowBackgroundPX.png
+Added : /xPath/img/xpath/WindowBackgroundPXBlank.png
+Modified : /xPath/img/xpath/WindowBackgroundSettings.png
+Modified : /xPath/src/xpath/XPath.java
+Modified : /xPath/src/xpath/XPathConstants.java
+Modified : /xPath/src/xpath/data/XPathDataModel.java
+Added : /xPath/src/xpath/ui/Event.java
+Modified : /xPath/src/xpath/ui/XPathMiniGame.java
+Modified : /xPath/src/xpath/ui/XPathPanel.java
+
+Revision: 39
+Author: Khaos
+Date: Monday, April 14, 2014 3:05:15 AM
+Message:
+Level Section and much of everything else work
+----
+Added : /xPath/data/xpath/Pennsylvania.txt
+Added : /xPath/data/xpath/Utah.txt
+Modified : /xPath/data/xpath/xpath_properties.xml
+Added : /xPath/hs_err_pid12820.log
+Modified : /xPath/img/xpath/BG3.png
+Modified : /xPath/img/xpath/BackgroundMenu.png
+Modified : /xPath/img/xpath/ButtonBack.png
+Modified : /xPath/img/xpath/ButtonBackMouseOver.png
+Added : /xPath/img/xpath/Check.png
+Added : /xPath/img/xpath/CloseButton.png
+Added : /xPath/img/xpath/CloseButtonMO.png
+Modified : /xPath/img/xpath/DownArrow.png
+Modified : /xPath/img/xpath/DownArrowMO.png
+Modified : /xPath/img/xpath/LeftArrow.png
+Modified : /xPath/img/xpath/LeftArrowMO.png
+Modified : /xPath/img/xpath/LockedLevel.png
+Modified : /xPath/img/xpath/PlayGame.png
+Modified : /xPath/img/xpath/PlayGameMO.png
+Modified : /xPath/img/xpath/Quit.png
+Modified : /xPath/img/xpath/QuitMO.png
+Modified : /xPath/img/xpath/ResetGame.png
+Modified : /xPath/img/xpath/ResetGameMO.png
+Modified : /xPath/img/xpath/RightArrow.png
+Modified : /xPath/img/xpath/RightArrowMO.png
+Modified : /xPath/img/xpath/UpArrow.png
+Modified : /xPath/img/xpath/UpArrowMO.png
+Modified : /xPath/img/xpath/ViewHelp.png
+Modified : /xPath/img/xpath/ViewHelpMO.png
+Modified : /xPath/img/xpath/ViewSettings.png
+Modified : /xPath/img/xpath/ViewSettingsMO.png
+Added : /xPath/img/xpath/WindowBG.png
+Added : /xPath/img/xpath/WindowBackgroundPX.png
+Added : /xPath/img/xpath/WindowBackgroundSettings.png
+Modified : /xPath/img/xpath/WindowIcon.png
+Modified : /xPath/src/xpath/data/XPathDataModel.java
+Modified : /xPath/src/xpath/ui/XPathEventHandler.java
+Modified : /xPath/src/xpath/ui/XPathMiniGame.java
+Modified : /xPath/src/xpath/ui/XPathPanel.java
+
+Revision: 38
+Author: Khaos
+Date: Monday, April 14, 2014 3:05:01 AM
+Message:
+Level Section and much of everything else work
+----
+Modified : /xPath/src/xpath/XPath.java
+Modified : /xPath/src/xpath/XPathConstants.java
+
+Revision: 37
+Author: Khaos
+Date: Sunday, April 13, 2014 9:06:36 PM
+Message:
+Scrolling works
+----
+Added : /xPath/data/xpath/California.txt
+Modified : /xPath/data/xpath/xpath_properties.xml
+Added : /xPath/img/xpath/BG1.png
+Added : /xPath/img/xpath/BG2.png
+Added : /xPath/img/xpath/BG3.png
+Modified : /xPath/img/xpath/BackgroundMenu.png
+Added : /xPath/img/xpath/DownArrow.png
+Added : /xPath/img/xpath/DownArrowMO.png
+Added : /xPath/img/xpath/LeftArrow.png
+Added : /xPath/img/xpath/LeftArrowMO.png
+Added : /xPath/img/xpath/LockedLevel.png
+Added : /xPath/img/xpath/RightArrow.png
+Added : /xPath/img/xpath/RightArrowMO.png
+Added : /xPath/img/xpath/RobbedLevel.png
+Added : /xPath/img/xpath/UnitedStatesMap.png
+Added : /xPath/img/xpath/UnlockedLevel.png
+Added : /xPath/img/xpath/UpArrow.png
+Added : /xPath/img/xpath/UpArrowMO.png
+Modified : /xPath/nbproject/project.properties
+Modified : /xPath/src/xpath/XPath.java
+Modified : /xPath/src/xpath/XPathConstants.java
+Modified : /xPath/src/xpath/data/XPathDataModel.java
+Modified : /xPath/src/xpath/ui/XPathEventHandler.java
+Modified : /xPath/src/xpath/ui/XPathMiniGame.java
+Modified : /xPath/src/xpath/ui/XPathPanel.java
+
+Revision: 36
+Author: Khaos
+Date: Friday, April 11, 2014 4:39:31 AM
+Message:
+Button sprites loaded
+----
+Modified : /xPath/audio/xpath/MenuSong.mid
+Modified : /xPath/data/xpath/xpath_properties.xml
+Modified : /xPath/img/xpath/BackgroundMenu.png
+Added : /xPath/img/xpath/PlayGame.png
+Added : /xPath/img/xpath/PlayGameMO.png
+Added : /xPath/img/xpath/Quit.png
+Added : /xPath/img/xpath/QuitMO.png
+Added : /xPath/img/xpath/ResetGame.png
+Added : /xPath/img/xpath/ResetGameMO.png
+Deleted : /xPath/img/xpath/SelectionSortCrown.png
+Deleted : /xPath/img/xpath/SelectionSortCrownMouseOver.png
+Deleted : /xPath/img/xpath/SelectionSortStairs.png
+Deleted : /xPath/img/xpath/SelectionSortStairsMouseOver.png
+Added : /xPath/img/xpath/ViewHelp.png
+Added : /xPath/img/xpath/ViewHelpMO.png
+Added : /xPath/img/xpath/ViewSettings.png
+Added : /xPath/img/xpath/ViewSettingsMO.png
+Modified : /xPath/img/xpath/WindowIcon.png
+Modified : /xPath/src/xpath/XPath.java
+Modified : /xPath/src/xpath/XPathConstants.java
+Modified : /xPath/src/xpath/ui/XPathMiniGame.java
+
+Revision: 35
+Author: Khaos
+Date: Friday, April 11, 2014 3:05:58 AM
+Message:
+Loads window now
+----
+Added : /xPath/img/xpath/BackgroundGame.png
+Added : /xPath/img/xpath/BackgroundGameOriginal.png
+Added : /xPath/img/xpath/BackgroundMenu.png
+Added : /xPath/img/xpath/ButtonBack.png
+Added : /xPath/img/xpath/ButtonBackMouseOver.png
+Added : /xPath/img/xpath/ButtonBubbleSortCoil.png
+Added : /xPath/img/xpath/ButtonBubbleSortCoilMouseOver.png
+Added : /xPath/img/xpath/ButtonBubbleSortO.png
+Added : /xPath/img/xpath/ButtonBubbleSortOMouseOver.png
+Added : /xPath/img/xpath/ButtonNewGame.png
+Added : /xPath/img/xpath/ButtonNewGameMouseOver.png
+Added : /xPath/img/xpath/ButtonSelectionSortSine.png
+Added : /xPath/img/xpath/ButtonSelectionSortSineMouseOver.png
+Added : /xPath/img/xpath/ButtonSelectionSortU.png
+Added : /xPath/img/xpath/ButtonSelectionSortUMouseOver.png
+Added : /xPath/img/xpath/ButtonStats.png
+Added : /xPath/img/xpath/ButtonStatsMouseOver.png
+Added : /xPath/img/xpath/ButtonTempTile.png
+Added : /xPath/img/xpath/ButtonUndo.png
+Added : /xPath/img/xpath/ButtonUndoMouseOver.png
+Added : /xPath/img/xpath/CursorWand.jpg
+Added : /xPath/img/xpath/CursorWand.png
+Added : /xPath/img/xpath/DecorMiscasts.png
+Added : /xPath/img/xpath/DecorTime.png
+Added : /xPath/img/xpath/DialogStats.png
+Added : /xPath/img/xpath/DialogWin.png
+Added : /xPath/img/xpath/LevelEditorWindowIcon.png
+Added : /xPath/img/xpath/SelectionSortCrown.png
+Added : /xPath/img/xpath/SelectionSortCrownMouseOver.png
+Added : /xPath/img/xpath/SelectionSortStairs.png
+Added : /xPath/img/xpath/SelectionSortStairsMouseOver.png
+Added : /xPath/img/xpath/SpriteSheetCharacterTiles.png
+Added : /xPath/img/xpath/TileBackground.png
+Added : /xPath/img/xpath/TileBackgroundMouseOver.png
+Added : /xPath/img/xpath/TileBackgroundSelected.png
+Added : /xPath/img/xpath/WindowIcon.png
+Modified : /xPath/src/xpath/data/XPathDataModel.java
+Modified : /xPath/src/xpath/ui/XPathEventHandler.java
+Modified : /xPath/src/xpath/ui/XPathMiniGame.java
+
+Revision: 34
+Author: Khaos
+Date: Friday, April 11, 2014 1:57:30 AM
+Message:
+First build. Runnable but nothing displayed. Initial framework
+----
+Modified : /xPath
+Added : /xPath/audio
+Added : /xPath/audio/xpath
+Added : /xPath/audio/xpath/BadMove.wav
+Added : /xPath/audio/xpath/Cheat.wav
+Added : /xPath/audio/xpath/DeselectTile.wav
+Added : /xPath/audio/xpath/GameSong.mid
+Added : /xPath/audio/xpath/GoodMove.wav
+Added : /xPath/audio/xpath/MenuSong.mid
+Added : /xPath/audio/xpath/SelectTile.wav
+Added : /xPath/audio/xpath/Undo.wav
+Added : /xPath/audio/xpath/Win.mid
+Added : /xPath/build.xml
+Added : /xPath/data
+Added : /xPath/data/properties.xml
+Added : /xPath/data/properties_schema.xsd
+Added : /xPath/data/xpath
+Added : /xPath/data/xpath/xpath_properties.xml
+Added : /xPath/img
+Added : /xPath/img/xpath
+Added : /xPath/manifest.mf
+Added : /xPath/nbproject
+Added : /xPath/nbproject/build-impl.xml
+Added : /xPath/nbproject/genfiles.properties
+Added : /xPath/nbproject/project.properties
+Added : /xPath/nbproject/project.xml
+Added : /xPath/src
+Added : /xPath/src/xpath
+Added : /xPath/src/xpath/XPath.java
+Added : /xPath/src/xpath/XPathConstants.java
+Added : /xPath/src/xpath/data
+Added : /xPath/src/xpath/data/XPathDataModel.java
+Added : /xPath/src/xpath/ui
+Added : /xPath/src/xpath/ui/XPathErrorHandler.java
+Added : /xPath/src/xpath/ui/XPathEventHandler.java
+Added : /xPath/src/xpath/ui/XPathMiniGame.java
+Added : /xPath/src/xpath/ui/XPathPanel.java
+Added : /xPath/test
+
+Revision: 33
+Author: Khaos
+Date: Friday, April 11, 2014 1:57:24 AM
+Message:
+First build. Runnable but nothing displayed. Initial framework
+----
+Added : /xPath
+

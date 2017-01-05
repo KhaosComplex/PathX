@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<level image="florida.png" name="Florida">
+     <intersections>
+          <intersection id="0" open="true" x="49" y="275"/>
+          <intersection id="1" open="true" x="891" y="296"/>
+          <intersection id="2" open="true" x="171" y="127"/>
+          <intersection id="3" open="false" x="333" y="102"/>
+          <intersection id="4" open="true" x="493" y="100"/>
+          <intersection id="5" open="true" x="642" y="106"/>
+          <intersection id="6" open="true" x="724" y="128"/>
+          <intersection id="7" open="true" x="106" y="447"/>
+          <intersection id="8" open="true" x="210" y="486"/>
+          <intersection id="9" open="true" x="348" y="508"/>
+          <intersection id="10" open="false" x="481" y="506"/>
+          <intersection id="11" open="true" x="587" y="509"/>
+          <intersection id="12" open="true" x="701" y="500"/>
+          <intersection id="13" open="true" x="403" y="82"/>
+          <intersection id="14" open="true" x="536" y="279"/>
+          <intersection id="15" open="true" x="256" y="275"/>
+     </intersections>
+     <roads>
+          <road int_id1="2" int_id2="15" one_way="false" speed_limit="30"/>
+          <road int_id1="15" int_id2="7" one_way="false" speed_limit="30"/>
+          <road int_id1="8" int_id2="15" one_way="false" speed_limit="30"/>
+          <road int_id1="15" int_id2="9" one_way="false" speed_limit="30"/>
+          <road int_id1="7" int_id2="8" one_way="false" speed_limit="30"/>
+          <road int_id1="8" int_id2="9" one_way="false" speed_limit="30"/>
+          <road int_id1="9" int_id2="10" one_way="false" speed_limit="30"/>
+          <road int_id1="10" int_id2="11" one_way="false" speed_limit="30"/>
+          <road int_id1="12" int_id2="11" one_way="false" speed_limit="30"/>
+          <road int_id1="12" int_id2="14" one_way="false" speed_limit="30"/>
+          <road int_id1="14" int_id2="10" one_way="false" speed_limit="30"/>
+          <road int_id1="11" int_id2="14" one_way="false" speed_limit="30"/>
+          <road int_id1="14" int_id2="5" one_way="false" speed_limit="30"/>
+          <road int_id1="14" int_id2="6" one_way="false" speed_limit="30"/>
+          <road int_id1="6" int_id2="5" one_way="false" speed_limit="30"/>
+          <road int_id1="5" int_id2="4" one_way="false" speed_limit="30"/>
+          <road int_id1="4" int_id2="14" one_way="false" speed_limit="30"/>
+          <road int_id1="4" int_id2="13" one_way="false" speed_limit="30"/>
+          <road int_id1="13" int_id2="3" one_way="false" speed_limit="30"/>
+          <road int_id1="3" int_id2="15" one_way="false" speed_limit="30"/>
+          <road int_id1="2" int_id2="3" one_way="false" speed_limit="30"/>
+          <road int_id1="13" int_id2="10" one_way="false" speed_limit="30"/>
+          <road int_id1="9" int_id2="13" one_way="false" speed_limit="30"/>
+          <road int_id1="15" int_id2="15" one_way="false" speed_limit="30"/>
+          <road int_id1="6" int_id2="1" one_way="false" speed_limit="30"/>
+          <road int_id1="0" int_id2="15" one_way="false" speed_limit="30"/>
+     </roads>
+     <start_intersection id="0" image="1Start.png"/>
+     <destination_intersection id="1" image="1End.png"/>
+     <money amount="280"/>
+     <police num="3"/>
+     <bandits num="1"/>
+     <zombies num="3"/>
+</level>

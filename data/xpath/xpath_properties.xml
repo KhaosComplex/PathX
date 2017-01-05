@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    The properties in this file setup a Harry Potter flavor of this game called
+    The Sorting Hat. Note that by swapping out all these settings we could easily
+    change the flavor.
+-->
+<properties>
+    <property_list>
+        <!-- ALL THE IMAGES TO BE USED IN THE GAME -->
+        <property name="IMAGE_BACKGROUND_GAME"              value="./xpath/BackgroundGame.png"></property>
+        <property name="IMAGE_BACKGROUND_MENU"              value="./xpath/BackgroundMenu.png"></property>
+        <property name="IMAGE_BACKGROUND_MAP"               value="./xpath/BG1.png"></property>
+        <property name="IMAGE_BACKGROUND_OTHER"             value="./xpath/BG2.png"></property>
+        <property name="IMAGE_BACKGROUND_OTHER2"            value="./xpath/BG3.png"></property>
+        <property name="IMAGE_BACKGROUND_OTHER3"            value="./xpath/BG4.png"></property>
+        <property name="IMAGE_PAUSE"                        value="./xpath/pause.png"></property>
+        <property name="IMAGE_PAUSE_MO"                     value="./xpath/pauseMO.png"></property>
+        <property name="IMAGE_PLAY"                         value="./xpath/play.png"></property>
+        <property name="IMAGE_PLAY_MO"                      value="./xpath/playMO.png"></property>
+		<property name="IMAGE_PC"            		        value="./xpath/PC.png"></property>
+        <property name="IMAGE_MAP"                          value="./xpath/UnitedStatesMap.png"></property>
+        <property name="IMAGE_BUTTON_NEW"                   value="./xpath/ButtonNewGame.png"></property>
+        <property name="IMAGE_BUTTON_NEW_MOUSE_OVER"        value="./xpath/ButtonNewGameMouseOver.png"></property>
+        <property name="IMAGE_BUTTON_LOCKED"                value="./xpath/LockedLevel.png"></property>
+        <property name="IMAGE_BUTTON_UNLOCKED"              value="./xpath/UnlockedLevel.png"></property>
+        <property name="IMAGE_BUTTON_ROBBED"                value="./xpath/RobbedLevel.png"></property>
+        <property name="IMAGE_BUTTON_LEFT"                  value="./xpath/LeftArrow.png"></property>
+        <property name="IMAGE_BUTTON_LEFT_MO"               value="./xpath/LeftArrowMO.png"></property>
+        <property name="IMAGE_BUTTON_RIGHT"                 value="./xpath/RightArrow.png"></property>
+        <property name="IMAGE_BUTTON_RIGHT_MO"              value="./xpath/RightArrowMO.png"></property>
+        <property name="IMAGE_BUTTON_UP"                    value="./xpath/UpArrow.png"></property>
+        <property name="IMAGE_BUTTON_UP_MO"                 value="./xpath/UpArrowMO.png"></property>
+        <property name="IMAGE_BUTTON_DOWN"                  value="./xpath/DownArrow.png"></property>
+        <property name="IMAGE_BUTTON_DOWN_MO"               value="./xpath/DownArrowMO.png"></property>
+        <property name="IMAGE_BUTTON_BACK"                  value="./xpath/ButtonBack.png"></property>
+        <property name="IMAGE_BUTTON_BACK_MOUSE_OVER"       value="./xpath/ButtonBackMouseOver.png"></property>
+        <property name="IMAGE_BUTTON_QUIT"                  value="./xpath/Quit.png"></property>
+        <property name="IMAGE_BUTTON_QUIT_MOUSE_OVER"       value="./xpath/QuitMO.png"></property>
+        <property name="IMAGE_BUTTON_STATS"                 value="./xpath/ButtonStats.png"></property>
+        <property name="IMAGE_BUTTON_STATS_MOUSE_OVER"      value="./xpath/ButtonStatsMouseOver.png"></property>
+        <property name="IMAGE_BUTTON_UNDO"                  value="./xpath/ButtonUndo.png"></property>
+        <property name="IMAGE_BUTTON_UNDO_MOUSE_OVER"       value="./xpath/ButtonUndoMouseOver.png"></property>
+        <property name="IMAGE_BUTTON_TEMP_TILE"             value="./xpath/ButtonTempTile.png"></property>
+        <property name="IMAGE_BUTTON_TEMP_TILE_MOUSE_OVER"  value="./xpath/ButtonTempTileMouseOver.png"></property>
+        <property name="IMAGE_CURSOR_WAND"                  value="./xpath/CursorWand.png"></property>
+        <property name="IMAGE_DECOR_TIME"                   value="./xpath/DecorTime.png"></property>
+        <property name="IMAGE_DECOR_MISCASTS"               value="./xpath/DecorMiscasts.png"></property>
+        <property name="IMAGE_DIALOG_STATS"                 value="./xpath/DialogStats.png"></property>
+        <property name="IMAGE_DIALOG_WIN"                   value="./xpath/DialogWin.png"></property>
+        <property name="IMAGE_PLAY_BUTTON"                  value="./xpath/PlayGame.png"></property>
+        <property name="IMAGE_PLAY_BUTTON_MO"               value="./xpath/PlayGameMO.png"></property>
+        <property name="IMAGE_SPRITE_SHEET_CHARACTER_TILES" value="./xpath/SpriteSheetCharacterTiles.png"></property>
+        <property name="IMAGE_TILE_BACKGROUND"              value="./xpath/TileBackground.png"></property>
+        <property name="IMAGE_TILE_BACKGROUND_SELECTED"     value="./xpath/TileBackgroundSelected.png"></property>
+        <property name="IMAGE_TILE_BACKGROUND_MOUSE_OVER"   value="./xpath/TileBackgroundMouseOver.png"></property>
+        <property name="IMAGE_BG_NOTIFY"                    value="./xpath/WindowBG.png"></property>
+        <property name="IMAGE_CLOSE"                        value="./xpath/CloseButton.png"></property>
+        <property name="IMAGE_CLOSE_MO"                     value="./xpath/CloseButtonMO.png"></property>
+	    <property name="IMAGE_QUIT_S"                       value="./xpath/QuitSmall.png"></property>
+        <property name="IMAGE_QUIT_S_MO"                    value="./xpath/QuitSmallMO.png"></property>
+        <property name="IMAGE_PA_S"                         value="./xpath/PlayAgainSmall.png"></property>
+        <property name="IMAGE_PA_S_MO"                      value="./xpath/PlayAgainSmallMO.png"></property>
+        <property name="IMAGE_CLOSE_S"                      value="./xpath/CloseSmall.png"></property>
+        <property name="IMAGE_CLOSE_S_MO"                   value="./xpath/CloseSmallMO.png"></property>
+        <property name="IMAGE_SETTINGS"                     value="./xpath/WindowBackgroundSettings.png"></property>
+        <property name="IMAGE_CHECK"                        value="./xpath/Check.png"></property>
+        <property name="IMAGE_ABOUT"                        value="./xpath/WindowBackgroundPX.png"></property>
+        <property name="IMAGE_WINDOW_ICON"                  value="./xpath/WindowIcon.png"></property>
+
+        <!-- ALL THE TEXT TO BE DISPLAYED -->
+        <property name="TEXT_ERROR_LOADING_AUDIO"               value="Error Loading an Audio File"></property>
+        <property name="TEXT_ERROR_LOADING_LEVEL"               value="Error Loading a Level File"></property>
+        <property name="TEXT_ERROR_LOADING_RECORD"              value="Error Loading the Player Record"></property>
+        <property name="TEXT_ERROR_LOADING_XML_FILE"            value="Error Loading an XML File"></property>
+        <property name="TEXT_ERROR_SAVING_RECORD"               value="Error Saving the Player Record"></property>
+        <property name="TEXT_LABEL_STATS_ALGORITHM"             value="Algorithm: "></property>
+        <property name="TEXT_LABEL_STATS_GAMES"                 value="Games: "></property>
+        <property name="TEXT_LABEL_STATS_WINS"                  value="Wins: "></property>
+        <property name="TEXT_LABEL_STATS_PERFECT_WINS"          value="Perfect Wins: "></property>
+        <property name="TEXT_LABEL_STATS_FASTEST_PERFECT_WIN"   value="Fastest Perfect Win: "></property>
+        <property name="TEXT_PROMPT_EXIT"                       value="Are you sure you wish to exit?"></property>
+        <property name="TEXT_TITLE_BAR_GAME"                    value="PathX"></property>
+        <property name="TEXT_TITLE_BAR_ERROR"                   value="An error has occurred"></property>                
+        
+        <!-- AUDIO FILES -->
+        <property name="EFFECT"                             value="./xpath/Effect.wav"></property>
+        <property name="COLLISION"                          value="./xpath/Collision.wav"></property>        
+        <property name="SONG_CUE_MENU_SCREEN"               value="./xpath/MenuSong.mid"></property>
+    </property_list>
+    
+    <!-- PLAYABLE LEVELS CREATED WITH THE LEVEL EDITOR -->
+    <property_options_list>
+        <property_options name="LEVEL_OPTIONS">
+		    <option>./xpath/Washington.xml</option>
+		    <option>./xpath/Oregon.xml</option>
+            <option>./xpath/California.xml</option>
+            <option>./xpath/Utah.xml</option>
+			<option>./xpath/Wyoming.xml</option>
+			<option>./xpath/NorthDakota.xml</option>
+		    <option>./xpath/Minnesota.xml</option>
+			<option>./xpath/Wisconsin.xml</option>
+			<option>./xpath/Illinois.xml</option>
+			<option>./xpath/Missouri.xml</option>
+			<option>./xpath/Kansas.xml</option>
+            <option>./xpath/Texas.xml</option>
+			<option>./xpath/Tennessee.xml</option>
+            <option>./xpath/Florida.xml</option>
+			<option>./xpath/NorthCarolina.xml</option>
+            <option>./xpath/Ohio.xml</option>
+			<option>./xpath/Pennsylvania.xml</option>
+			<option>./xpath/Maine.xml</option>
+			<option>./xpath/NewHampshire.xml</option>
+			<option>./xpath/NewYork.xml</option>
+        </property_options>
+        <property_options name="LEVEL_OPTIONS_X">
+            <option>154</option>
+			<option>125</option>
+			<option>97</option>
+			<option>305</option>
+			<option>420</option>
+			<option>594</option>
+			<option>718</option>
+			<option>828</option>
+			<option>855</option>
+			<option>775</option>
+			<option>623</option>
+			<option>593</option>
+			<option>931</option>
+			<option>1083</option>
+			<option>1117</option>  
+			<option>1005</option>
+			<option>1123</option>
+			<option>1284</option>
+			<option>1244</option>
+			<option>1170</option>
+        </property_options>
+        <property_options name="LEVEL_OPTIONS_Y">
+            <option>194</option>
+			<option>291</option>
+			<option>539</option>
+			<option>491</option>
+			<option>379</option>
+			<option>249</option>
+			<option>298</option>
+			<option>348</option>
+			<option>477</option>
+			<option>542</option>
+			<option>538</option>
+			<option>765</option>
+			<option>611</option>
+			<option>821</option>
+			<option>594</option>
+			<option>460</option>
+			<option>423</option>
+			<option>235</option>
+			<option>304</option>
+			<option>343</option> 
+        </property_options>
+		        <property_options name="POWERUP_OPTIONS">
+            <option>./xpath/GreenLightPU.png</option>
+			<option>./xpath/RedLightPU.png</option>
+			<option>./xpath/DecreaseSpeedLimitPU.png</option>
+			<option>./xpath/IncreaseSpeedLimitPU.png</option>
+			<option>./xpath/IncreasePlayerSpeedPU.png</option>
+			<option>./xpath/FlatTirePU.png</option>
+			<option>./xpath/EmptyGasTankPU.png</option>
+			<option>./xpath/RoadClosedPU.png</option>
+			<option>./xpath/CloseIntersectionPU.png</option>
+			<option>./xpath/OpenIntersectionPU.png</option>
+			<option>./xpath/StealPU.png</option>
+			<option>./xpath/MindControlPU.png</option>
+			<option>./xpath/IntangibilityPU.png</option>
+			<option>./xpath/MindlessTerrorPU.png</option>
+			<option>./xpath/FlyingPU.png</option>
+			<option>./xpath/InvincibilityPU.png</option>
+        </property_options>
+        <property_options name="LEVEL_IMAGE_OPTIONS">
+
+        </property_options>
+        <property_options name="LEVEL_MOUSE_OVER_IMAGE_OPTIONS">
+
+        </property_options>
+        <property_options name="MAIN_MENU_IMAGE_OPTIONS">
+            <option>./xpath/PlayGame.png</option>
+            <option>./xpath/ResetGame.png</option>
+            <option>./xpath/ViewSettings.png</option>
+            <option>./xpath/ViewHelp.png</option>
+        </property_options>
+        <property_options name="MAIN_MENU_MOUSE_OVER_IMAGE_OPTIONS">
+            <option>./xpath/PlayGameMO.png</option>
+            <option>./xpath/ResetGameMO.png</option>
+            <option>./xpath/ViewSettingsMO.png</option>
+            <option>./xpath/ViewHelpMO.png</option>
+        </property_options>
+    </property_options_list>
+</properties>
